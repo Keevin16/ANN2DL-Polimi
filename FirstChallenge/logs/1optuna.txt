@@ -1,0 +1,1013 @@
+Best trial: 31. Best value: 0.792328: 100%
+ 50/50 [1:06:16<00:00, 104.96s/it]
+--- Starting Trial 0 ---
+  Params: 
+    learning_rate: 0.0003665200647057464
+    hidden_layers: 2
+    hidden_size: 64
+    dropout_rate: 0.2972638510808868
+    l2_lambda: 0.009840404587753915
+    batch_size: 128
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.5093, Val Loss=0.8605, Train F1=0.6929, Val F1=0.5778
+Early stopping at epoch 17
+    Fold 1 Best F1: 0.6191
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.5352, Val Loss=0.7028, Train F1=0.7043, Val F1=0.6412
+Early stopping at epoch 15
+    Fold 2 Best F1: 0.6572
+--- Trial 0 Finished ---
+  Mean F1 Score: 0.6381
+  Std F1 Score: 0.0191
+[I 2025-11-12 17:36:08,610] Trial 0 finished with value: 0.6381424351519073 and parameters: {'learning_rate': 0.0003665200647057464, 'hidden_layers': 2, 'hidden_size': 64, 'dropout_rate': 0.2972638510808868, 'l2_lambda': 0.009840404587753915, 'batch_size': 128}. Best is trial 0 with value: 0.6381424351519073.
+
+--- Starting Trial 1 ---
+  Params: 
+    learning_rate: 0.0042515524459185265
+    hidden_layers: 2
+    hidden_size: 32
+    dropout_rate: 0.3151049617173284
+    l2_lambda: 0.001687499310243498
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.2338, Val Loss=0.7155, Train F1=0.9151, Val F1=0.7171
+Early stopping at epoch 12
+    Fold 1 Best F1: 0.7521
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 10
+    Fold 2 Best F1: 0.7909
+--- Trial 1 Finished ---
+  Mean F1 Score: 0.7715
+  Std F1 Score: 0.0194
+[I 2025-11-12 17:38:17,952] Trial 1 finished with value: 0.7715046306915744 and parameters: {'learning_rate': 0.0042515524459185265, 'hidden_layers': 2, 'hidden_size': 32, 'dropout_rate': 0.3151049617173284, 'l2_lambda': 0.001687499310243498, 'batch_size': 32}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 2 ---
+  Params: 
+    learning_rate: 0.00012962354754299428
+    hidden_layers: 2
+    hidden_size: 64
+    dropout_rate: 0.3466453205991709
+    l2_lambda: 0.0013246286087061447
+    batch_size: 256
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.4915, Val Loss=0.8824, Train F1=0.7514, Val F1=0.6179
+Early stopping at epoch 20
+    Fold 1 Best F1: 0.6902
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.5039, Val Loss=0.7126, Train F1=0.7779, Val F1=0.6540
+Early stopping at epoch 14
+    Fold 2 Best F1: 0.6851
+--- Trial 2 Finished ---
+  Mean F1 Score: 0.6876
+  Std F1 Score: 0.0025
+[I 2025-11-12 17:38:57,939] Trial 2 finished with value: 0.6876463730055993 and parameters: {'learning_rate': 0.00012962354754299428, 'hidden_layers': 2, 'hidden_size': 64, 'dropout_rate': 0.3466453205991709, 'l2_lambda': 0.0013246286087061447, 'batch_size': 256}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 3 ---
+  Params: 
+    learning_rate: 0.008899142228807161
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.1944546820429238
+    l2_lambda: 0.0001366459041968414
+    batch_size: 64
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1872, Val Loss=0.8454, Train F1=0.9417, Val F1=0.7191
+Early stopping at epoch 16
+    Fold 1 Best F1: 0.7619
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7673
+--- Trial 3 Finished ---
+  Mean F1 Score: 0.7646
+  Std F1 Score: 0.0027
+[I 2025-11-12 17:40:25,645] Trial 3 finished with value: 0.7645993571671424 and parameters: {'learning_rate': 0.008899142228807161, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.1944546820429238, 'l2_lambda': 0.0001366459041968414, 'batch_size': 64}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 4 ---
+  Params: 
+    learning_rate: 0.004610259193387094
+    hidden_layers: 1
+    hidden_size: 32
+    dropout_rate: 0.23347076898712568
+    l2_lambda: 0.0014858312573406412
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1942, Val Loss=0.9148, Train F1=0.9253, Val F1=0.6589
+Early stopping at epoch 20
+    Fold 1 Best F1: 0.7565
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 9
+    Fold 2 Best F1: 0.7794
+--- Trial 4 Finished ---
+  Mean F1 Score: 0.7679
+  Std F1 Score: 0.0114
+[I 2025-11-12 17:43:03,727] Trial 4 finished with value: 0.7679364003815006 and parameters: {'learning_rate': 0.004610259193387094, 'hidden_layers': 1, 'hidden_size': 32, 'dropout_rate': 0.23347076898712568, 'l2_lambda': 0.0014858312573406412, 'batch_size': 32}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 5 ---
+  Params: 
+    learning_rate: 0.006517103168150292
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.21566394460267013
+    l2_lambda: 0.00235712166008295
+    batch_size: 128
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 10
+    Fold 1 Best F1: 0.7357
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 10
+    Fold 2 Best F1: 0.7667
+--- Trial 5 Finished ---
+  Mean F1 Score: 0.7512
+  Std F1 Score: 0.0155
+[I 2025-11-12 17:43:40,765] Trial 5 finished with value: 0.7511969224003794 and parameters: {'learning_rate': 0.006517103168150292, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.21566394460267013, 'l2_lambda': 0.00235712166008295, 'batch_size': 128}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 6 ---
+  Params: 
+    learning_rate: 0.008071454062701815
+    hidden_layers: 1
+    hidden_size: 32
+    dropout_rate: 0.18846578387571983
+    l2_lambda: 0.0008902173144701911
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7433
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7703
+--- Trial 6 Finished ---
+  Mean F1 Score: 0.7568
+  Std F1 Score: 0.0135
+[I 2025-11-12 17:44:38,808] Trial 6 finished with value: 0.7568151334616923 and parameters: {'learning_rate': 0.008071454062701815, 'hidden_layers': 1, 'hidden_size': 32, 'dropout_rate': 0.18846578387571983, 'l2_lambda': 0.0008902173144701911, 'batch_size': 32}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 7 ---
+  Params: 
+    learning_rate: 0.0003645816560904034
+    hidden_layers: 2
+    hidden_size: 64
+    dropout_rate: 0.25628018464477753
+    l2_lambda: 0.0014102438115313415
+    batch_size: 256
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.2891, Val Loss=0.8240, Train F1=0.8556, Val F1=0.7048
+Early stopping at epoch 11
+    Fold 1 Best F1: 0.7208
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 10
+    Fold 2 Best F1: 0.7453
+--- Trial 7 Finished ---
+  Mean F1 Score: 0.7331
+  Std F1 Score: 0.0123
+[I 2025-11-12 17:45:02,509] Trial 7 finished with value: 0.7330541222572141 and parameters: {'learning_rate': 0.0003645816560904034, 'hidden_layers': 2, 'hidden_size': 64, 'dropout_rate': 0.25628018464477753, 'l2_lambda': 0.0014102438115313415, 'batch_size': 256}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 8 ---
+  Params: 
+    learning_rate: 0.0014786415058244357
+    hidden_layers: 1
+    hidden_size: 64
+    dropout_rate: 0.41668760880485345
+    l2_lambda: 0.00016301974838887196
+    batch_size: 256
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 7
+    Fold 1 Best F1: 0.7281
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7775
+--- Trial 8 Finished ---
+  Mean F1 Score: 0.7528
+  Std F1 Score: 0.0247
+[I 2025-11-12 17:45:15,580] Trial 8 finished with value: 0.7527846232514674 and parameters: {'learning_rate': 0.0014786415058244357, 'hidden_layers': 1, 'hidden_size': 64, 'dropout_rate': 0.41668760880485345, 'l2_lambda': 0.00016301974838887196, 'batch_size': 256}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 9 ---
+  Params: 
+    learning_rate: 0.005056608549826793
+    hidden_layers: 2
+    hidden_size: 64
+    dropout_rate: 0.2765094194842653
+    l2_lambda: 0.002438927400450048
+    batch_size: 128
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 8
+    Fold 1 Best F1: 0.7021
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7746
+--- Trial 9 Finished ---
+  Mean F1 Score: 0.7384
+  Std F1 Score: 0.0363
+[I 2025-11-12 17:45:42,872] Trial 9 finished with value: 0.7383559341452293 and parameters: {'learning_rate': 0.005056608549826793, 'hidden_layers': 2, 'hidden_size': 64, 'dropout_rate': 0.2765094194842653, 'l2_lambda': 0.002438927400450048, 'batch_size': 128}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 10 ---
+  Params: 
+    learning_rate: 0.0016817407973796683
+    hidden_layers: 3
+    hidden_size: 32
+    dropout_rate: 0.36024692526333435
+    l2_lambda: 0.0004231514122588062
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 9
+    Fold 1 Best F1: 0.7524
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7740
+--- Trial 10 Finished ---
+  Mean F1 Score: 0.7632
+  Std F1 Score: 0.0108
+[I 2025-11-12 17:47:41,652] Trial 10 finished with value: 0.7631928992388803 and parameters: {'learning_rate': 0.0016817407973796683, 'hidden_layers': 3, 'hidden_size': 32, 'dropout_rate': 0.36024692526333435, 'l2_lambda': 0.0004231514122588062, 'batch_size': 32}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 11 ---
+  Params: 
+    learning_rate: 0.002887474189822026
+    hidden_layers: 3
+    hidden_size: 32
+    dropout_rate: 0.3425591142221933
+    l2_lambda: 0.00673670220480019
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.4332, Val Loss=0.5535, Train F1=0.8448, Val F1=0.6939
+Early stopping at epoch 15
+    Fold 1 Best F1: 0.6979
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7597
+--- Trial 11 Finished ---
+  Mean F1 Score: 0.7288
+  Std F1 Score: 0.0309
+[I 2025-11-12 17:50:54,751] Trial 11 finished with value: 0.7288262161271818 and parameters: {'learning_rate': 0.002887474189822026, 'hidden_layers': 3, 'hidden_size': 32, 'dropout_rate': 0.3425591142221933, 'l2_lambda': 0.00673670220480019, 'batch_size': 32}. Best is trial 1 with value: 0.7715046306915744.
+
+--- Starting Trial 12 ---
+  Params: 
+    learning_rate: 0.0030027713377505497
+    hidden_layers: 1
+    hidden_size: 32
+    dropout_rate: 0.15326359421906743
+    l2_lambda: 0.0004968711205998418
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 9
+    Fold 1 Best F1: 0.7606
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.1003, Val Loss=0.4893, Train F1=0.9689, Val F1=0.7757
+Early stopping at epoch 11
+    Fold 2 Best F1: 0.7828
+--- Trial 12 Finished ---
+  Mean F1 Score: 0.7717
+  Std F1 Score: 0.0111
+[I 2025-11-12 17:52:24,713] Trial 12 finished with value: 0.7717310114826685 and parameters: {'learning_rate': 0.0030027713377505497, 'hidden_layers': 1, 'hidden_size': 32, 'dropout_rate': 0.15326359421906743, 'l2_lambda': 0.0004968711205998418, 'batch_size': 32}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 13 ---
+  Params: 
+    learning_rate: 0.002528389511452189
+    hidden_layers: 1
+    hidden_size: 32
+    dropout_rate: 0.16536553660385953
+    l2_lambda: 0.00042343515291509123
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7442
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 9
+    Fold 2 Best F1: 0.7949
+--- Trial 13 Finished ---
+  Mean F1 Score: 0.7695
+  Std F1 Score: 0.0254
+[I 2025-11-12 17:53:37,595] Trial 13 finished with value: 0.7695377100740517 and parameters: {'learning_rate': 0.002528389511452189, 'hidden_layers': 1, 'hidden_size': 32, 'dropout_rate': 0.16536553660385953, 'l2_lambda': 0.00042343515291509123, 'batch_size': 32}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 14 ---
+  Params: 
+    learning_rate: 0.0007988244353459225
+    hidden_layers: 3
+    hidden_size: 32
+    dropout_rate: 0.4258614862458615
+    l2_lambda: 0.00046410383113038375
+    batch_size: 64
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7197
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 8
+    Fold 2 Best F1: 0.7803
+--- Trial 14 Finished ---
+  Mean F1 Score: 0.7500
+  Std F1 Score: 0.0303
+[I 2025-11-12 17:54:33,290] Trial 14 finished with value: 0.7500016726451237 and parameters: {'learning_rate': 0.0007988244353459225, 'hidden_layers': 3, 'hidden_size': 32, 'dropout_rate': 0.4258614862458615, 'l2_lambda': 0.00046410383113038375, 'batch_size': 64}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 15 ---
+  Params: 
+    learning_rate: 0.003245181146519624
+    hidden_layers: 1
+    hidden_size: 32
+    dropout_rate: 0.15203630321382217
+    l2_lambda: 0.004020571377192734
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 7
+    Fold 1 Best F1: 0.6986
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.3080, Val Loss=0.4925, Train F1=0.9008, Val F1=0.7328
+Early stopping at epoch 16
+    Fold 2 Best F1: 0.7692
+--- Trial 15 Finished ---
+  Mean F1 Score: 0.7339
+  Std F1 Score: 0.0353
+[I 2025-11-12 17:56:41,968] Trial 15 finished with value: 0.733901483698993 and parameters: {'learning_rate': 0.003245181146519624, 'hidden_layers': 1, 'hidden_size': 32, 'dropout_rate': 0.15203630321382217, 'l2_lambda': 0.004020571377192734, 'batch_size': 32}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 16 ---
+  Params: 
+    learning_rate: 0.0009782279279526437
+    hidden_layers: 1
+    hidden_size: 32
+    dropout_rate: 0.3157434422605071
+    l2_lambda: 0.000648273573758228
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 8
+    Fold 1 Best F1: 0.7457
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7644
+--- Trial 16 Finished ---
+  Mean F1 Score: 0.7550
+  Std F1 Score: 0.0093
+[I 2025-11-12 17:57:47,344] Trial 16 finished with value: 0.7550436167578476 and parameters: {'learning_rate': 0.0009782279279526437, 'hidden_layers': 1, 'hidden_size': 32, 'dropout_rate': 0.3157434422605071, 'l2_lambda': 0.000648273573758228, 'batch_size': 32}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 17 ---
+  Params: 
+    learning_rate: 0.0005907535686017445
+    hidden_layers: 3
+    hidden_size: 128
+    dropout_rate: 0.3971936608419686
+    l2_lambda: 0.00023885486593168954
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 7
+    Fold 1 Best F1: 0.7358
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7658
+--- Trial 17 Finished ---
+  Mean F1 Score: 0.7508
+  Std F1 Score: 0.0150
+[I 2025-11-12 17:59:26,000] Trial 17 finished with value: 0.7507914891751091 and parameters: {'learning_rate': 0.0005907535686017445, 'hidden_layers': 3, 'hidden_size': 128, 'dropout_rate': 0.3971936608419686, 'l2_lambda': 0.00023885486593168954, 'batch_size': 32}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 18 ---
+  Params: 
+    learning_rate: 0.0016817167384862498
+    hidden_layers: 1
+    hidden_size: 32
+    dropout_rate: 0.2535137560326898
+    l2_lambda: 0.00023851811765351956
+    batch_size: 64
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7549
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7859
+--- Trial 18 Finished ---
+  Mean F1 Score: 0.7704
+  Std F1 Score: 0.0155
+[I 2025-11-12 17:59:53,319] Trial 18 finished with value: 0.7704030359307137 and parameters: {'learning_rate': 0.0016817167384862498, 'hidden_layers': 1, 'hidden_size': 32, 'dropout_rate': 0.2535137560326898, 'l2_lambda': 0.00023851811765351956, 'batch_size': 64}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 19 ---
+  Params: 
+    learning_rate: 0.004050632910458702
+    hidden_layers: 2
+    hidden_size: 32
+    dropout_rate: 0.3871587234497075
+    l2_lambda: 0.0032422252866933956
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 9
+    Fold 1 Best F1: 0.7313
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.3125, Val Loss=0.5740, Train F1=0.8903, Val F1=0.7347
+Early stopping at epoch 16
+    Fold 2 Best F1: 0.7686
+--- Trial 19 Finished ---
+  Mean F1 Score: 0.7500
+  Std F1 Score: 0.0187
+[I 2025-11-12 18:02:47,074] Trial 19 finished with value: 0.7499655794725316 and parameters: {'learning_rate': 0.004050632910458702, 'hidden_layers': 2, 'hidden_size': 32, 'dropout_rate': 0.3871587234497075, 'l2_lambda': 0.0032422252866933956, 'batch_size': 32}. Best is trial 12 with value: 0.7717310114826685.
+
+--- Starting Trial 20 ---
+  Params: 
+    learning_rate: 0.0020815672289237466
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.30340954648944285
+    l2_lambda: 0.0007584759866606219
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7466
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 8
+    Fold 2 Best F1: 0.8008
+--- Trial 20 Finished ---
+  Mean F1 Score: 0.7737
+  Std F1 Score: 0.0271
+[I 2025-11-12 18:04:14,255] Trial 20 finished with value: 0.7736981707218556 and parameters: {'learning_rate': 0.0020815672289237466, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.30340954648944285, 'l2_lambda': 0.0007584759866606219, 'batch_size': 32}. Best is trial 20 with value: 0.7736981707218556.
+
+--- Starting Trial 21 ---
+  Params: 
+    learning_rate: 0.0018337259765655667
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.3127155167849059
+    l2_lambda: 0.0007392555261882664
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 8
+    Fold 1 Best F1: 0.7492
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7590
+--- Trial 21 Finished ---
+  Mean F1 Score: 0.7541
+  Std F1 Score: 0.0049
+[I 2025-11-12 18:05:41,073] Trial 21 finished with value: 0.7541065231702602 and parameters: {'learning_rate': 0.0018337259765655667, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.3127155167849059, 'l2_lambda': 0.0007392555261882664, 'batch_size': 32}. Best is trial 20 with value: 0.7736981707218556.
+
+--- Starting Trial 22 ---
+  Params: 
+    learning_rate: 0.0024003928253382846
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.2884491990890661
+    l2_lambda: 0.00028311414000028534
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 7
+    Fold 1 Best F1: 0.7730
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7849
+--- Trial 22 Finished ---
+  Mean F1 Score: 0.7790
+  Std F1 Score: 0.0059
+[I 2025-11-12 18:07:00,344] Trial 22 finished with value: 0.7789763349549079 and parameters: {'learning_rate': 0.0024003928253382846, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.2884491990890661, 'l2_lambda': 0.00028311414000028534, 'batch_size': 32}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 23 ---
+  Params: 
+    learning_rate: 0.002260408153329366
+    hidden_layers: 3
+    hidden_size: 128
+    dropout_rate: 0.44858669483694136
+    l2_lambda: 0.0002818276177597618
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7496
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7772
+--- Trial 23 Finished ---
+  Mean F1 Score: 0.7634
+  Std F1 Score: 0.0138
+[I 2025-11-12 18:08:26,115] Trial 23 finished with value: 0.763375531102368 and parameters: {'learning_rate': 0.002260408153329366, 'hidden_layers': 3, 'hidden_size': 128, 'dropout_rate': 0.44858669483694136, 'l2_lambda': 0.0002818276177597618, 'batch_size': 32}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 24 ---
+  Params: 
+    learning_rate: 0.0010418894622723858
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.2818023238404338
+    l2_lambda: 0.0005432826535577842
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1027, Val Loss=0.5814, Train F1=0.9626, Val F1=0.7598
+Early stopping at epoch 11
+    Fold 1 Best F1: 0.7661
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.0885, Val Loss=0.6397, Train F1=0.9736, Val F1=0.7561
+Early stopping at epoch 13
+    Fold 2 Best F1: 0.7848
+--- Trial 24 Finished ---
+  Mean F1 Score: 0.7755
+  Std F1 Score: 0.0093
+[I 2025-11-12 18:10:13,779] Trial 24 finished with value: 0.7754677378993877 and parameters: {'learning_rate': 0.0010418894622723858, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.2818023238404338, 'l2_lambda': 0.0005432826535577842, 'batch_size': 32}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 25 ---
+  Params: 
+    learning_rate: 0.0005796421772614729
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.2840058017218555
+    l2_lambda: 0.00032986819852137163
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 7
+    Fold 1 Best F1: 0.7646
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7695
+--- Trial 25 Finished ---
+  Mean F1 Score: 0.7670
+  Std F1 Score: 0.0024
+[I 2025-11-12 18:11:30,853] Trial 25 finished with value: 0.7670485001268492 and parameters: {'learning_rate': 0.0005796421772614729, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.2840058017218555, 'l2_lambda': 0.00032986819852137163, 'batch_size': 32}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 26 ---
+  Params: 
+    learning_rate: 0.0013774104455433975
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.271349398681457
+    l2_lambda: 0.00018560495370144255
+    batch_size: 64
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7586
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7583
+--- Trial 26 Finished ---
+  Mean F1 Score: 0.7585
+  Std F1 Score: 0.0002
+[I 2025-11-12 18:12:11,619] Trial 26 finished with value: 0.7584768638766274 and parameters: {'learning_rate': 0.0013774104455433975, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.271349398681457, 'l2_lambda': 0.00018560495370144255, 'batch_size': 64}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 27 ---
+  Params: 
+    learning_rate: 0.0007877466885436795
+    hidden_layers: 3
+    hidden_size: 128
+    dropout_rate: 0.23585183005449264
+    l2_lambda: 0.0006605990936070004
+    batch_size: 128
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 7
+    Fold 1 Best F1: 0.7344
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 8
+    Fold 2 Best F1: 0.7650
+--- Trial 27 Finished ---
+  Mean F1 Score: 0.7497
+  Std F1 Score: 0.0153
+[I 2025-11-12 18:12:46,443] Trial 27 finished with value: 0.7496690394137847 and parameters: {'learning_rate': 0.0007877466885436795, 'hidden_layers': 3, 'hidden_size': 128, 'dropout_rate': 0.23585183005449264, 'l2_lambda': 0.0006605990936070004, 'batch_size': 128}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 28 ---
+  Params: 
+    learning_rate: 0.0011200947478910517
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.3360662195819697
+    l2_lambda: 0.00012599458530494195
+    batch_size: 256
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 10
+    Fold 1 Best F1: 0.7605
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7629
+--- Trial 28 Finished ---
+  Mean F1 Score: 0.7617
+  Std F1 Score: 0.0012
+[I 2025-11-12 18:13:03,697] Trial 28 finished with value: 0.7617128430958449 and parameters: {'learning_rate': 0.0011200947478910517, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.3360662195819697, 'l2_lambda': 0.00012599458530494195, 'batch_size': 256}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 29 ---
+  Params: 
+    learning_rate: 0.00035624908939669165
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.3002272250139228
+    l2_lambda: 0.0011570704573308584
+    batch_size: 128
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 9
+    Fold 1 Best F1: 0.7271
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7330
+--- Trial 29 Finished ---
+  Mean F1 Score: 0.7301
+  Std F1 Score: 0.0030
+[I 2025-11-12 18:13:35,229] Trial 29 finished with value: 0.7300593125738892 and parameters: {'learning_rate': 0.00035624908939669165, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.3002272250139228, 'l2_lambda': 0.0011570704573308584, 'batch_size': 128}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 30 ---
+  Params: 
+    learning_rate: 0.0002322604095869973
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.289148762551977
+    l2_lambda: 0.0008703807919306555
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1910, Val Loss=0.7089, Train F1=0.9353, Val F1=0.7337
+Early stopping at epoch 11
+    Fold 1 Best F1: 0.7471
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7446
+--- Trial 30 Finished ---
+  Mean F1 Score: 0.7458
+  Std F1 Score: 0.0012
+[I 2025-11-12 18:15:32,227] Trial 30 finished with value: 0.7458366363108858 and parameters: {'learning_rate': 0.0002322604095869973, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.289148762551977, 'l2_lambda': 0.0008703807919306555, 'batch_size': 32}. Best is trial 22 with value: 0.7789763349549079.
+
+--- Starting Trial 31 ---
+  Params: 
+    learning_rate: 0.0022645913580010262
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.362421463849523
+    l2_lambda: 0.0004970534993908161
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1114, Val Loss=0.6411, Train F1=0.9589, Val F1=0.7287
+Early stopping at epoch 11
+    Fold 1 Best F1: 0.7713
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.0961, Val Loss=1.0047, Train F1=0.9716, Val F1=0.6594
+Early stopping at epoch 11
+    Fold 2 Best F1: 0.8134
+--- Trial 31 Finished ---
+  Mean F1 Score: 0.7923
+  Std F1 Score: 0.0211
+[I 2025-11-12 18:17:04,154] Trial 31 finished with value: 0.7923280861042032 and parameters: {'learning_rate': 0.0022645913580010262, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.362421463849523, 'l2_lambda': 0.0004970534993908161, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 32 ---
+  Params: 
+    learning_rate: 0.0021872872288426063
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.3663473855535805
+    l2_lambda: 0.0003290635667807548
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 7
+    Fold 1 Best F1: 0.7694
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.0802, Val Loss=0.6219, Train F1=0.9743, Val F1=0.7336
+Early stopping at epoch 12
+    Fold 2 Best F1: 0.7691
+--- Trial 32 Finished ---
+  Mean F1 Score: 0.7692
+  Std F1 Score: 0.0002
+[I 2025-11-12 18:18:41,296] Trial 32 finished with value: 0.7692427734678708 and parameters: {'learning_rate': 0.0021872872288426063, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.3663473855535805, 'l2_lambda': 0.0003290635667807548, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 33 ---
+  Params: 
+    learning_rate: 0.0011424185989819086
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.33463348210106497
+    l2_lambda: 0.00048146580644127556
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.0886, Val Loss=0.5782, Train F1=0.9658, Val F1=0.7899
+Early stopping at epoch 15
+    Fold 1 Best F1: 0.7899
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7584
+--- Trial 33 Finished ---
+  Mean F1 Score: 0.7741
+  Std F1 Score: 0.0157
+[I 2025-11-12 18:20:40,234] Trial 33 finished with value: 0.7741370403896739 and parameters: {'learning_rate': 0.0011424185989819086, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.33463348210106497, 'l2_lambda': 0.00048146580644127556, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 34 ---
+  Params: 
+    learning_rate: 0.0011556256476363482
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.32662990062641173
+    l2_lambda: 0.0005319706512866738
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 9
+    Fold 1 Best F1: 0.7641
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7787
+--- Trial 34 Finished ---
+  Mean F1 Score: 0.7714
+  Std F1 Score: 0.0073
+[I 2025-11-12 18:21:53,140] Trial 34 finished with value: 0.7714312591479787 and parameters: {'learning_rate': 0.0011556256476363482, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.32662990062641173, 'l2_lambda': 0.0005319706512866738, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 35 ---
+  Params: 
+    learning_rate: 0.0005751703141470816
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.3674459151120385
+    l2_lambda: 0.0003521697984141044
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.0844, Val Loss=0.6975, Train F1=0.9720, Val F1=0.7538
+Early stopping at epoch 11
+    Fold 1 Best F1: 0.7538
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7818
+--- Trial 35 Finished ---
+  Mean F1 Score: 0.7678
+  Std F1 Score: 0.0140
+[I 2025-11-12 18:23:21,754] Trial 35 finished with value: 0.7677959933789893 and parameters: {'learning_rate': 0.0005751703141470816, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.3674459151120385, 'l2_lambda': 0.0003521697984141044, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 36 ---
+  Params: 
+    learning_rate: 0.0007664616973220181
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.38505914391100593
+    l2_lambda: 0.00010304624970070223
+    batch_size: 256
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 8
+    Fold 1 Best F1: 0.7459
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7507
+--- Trial 36 Finished ---
+  Mean F1 Score: 0.7483
+  Std F1 Score: 0.0024
+[I 2025-11-12 18:23:35,867] Trial 36 finished with value: 0.7482776759432359 and parameters: {'learning_rate': 0.0007664616973220181, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.38505914391100593, 'l2_lambda': 0.00010304624970070223, 'batch_size': 256}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 37 ---
+  Params: 
+    learning_rate: 0.00010511553865276261
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.3232864314028497
+    l2_lambda: 0.00020632416918024175
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1197, Val Loss=0.7990, Train F1=0.9512, Val F1=0.7151
+Early stopping at epoch 11
+    Fold 1 Best F1: 0.7217
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 10
+    Fold 2 Best F1: 0.7585
+--- Trial 37 Finished ---
+  Mean F1 Score: 0.7401
+  Std F1 Score: 0.0184
+[I 2025-11-12 18:25:09,118] Trial 37 finished with value: 0.7400921847017441 and parameters: {'learning_rate': 0.00010511553865276261, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.3232864314028497, 'l2_lambda': 0.00020632416918024175, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 38 ---
+  Params: 
+    learning_rate: 0.003910570446353588
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.35459081068905723
+    l2_lambda: 0.000593602420659887
+    batch_size: 64
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1087, Val Loss=0.7644, Train F1=0.9439, Val F1=0.7532
+Early stopping at epoch 18
+    Fold 1 Best F1: 0.7574
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.1030, Val Loss=0.5867, Train F1=0.9563, Val F1=0.7433
+Early stopping at epoch 13
+    Fold 2 Best F1: 0.7806
+--- Trial 38 Finished ---
+  Mean F1 Score: 0.7690
+  Std F1 Score: 0.0116
+[I 2025-11-12 18:26:28,343] Trial 38 finished with value: 0.7689917007363032 and parameters: {'learning_rate': 0.003910570446353588, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.35459081068905723, 'l2_lambda': 0.000593602420659887, 'batch_size': 64}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 39 ---
+  Params: 
+    learning_rate: 0.006525492464954867
+    hidden_layers: 1
+    hidden_size: 64
+    dropout_rate: 0.2626632022686026
+    l2_lambda: 0.0010011530912784905
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7368
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7671
+--- Trial 39 Finished ---
+  Mean F1 Score: 0.7520
+  Std F1 Score: 0.0151
+[I 2025-11-12 18:27:20,500] Trial 39 finished with value: 0.7519563964977494 and parameters: {'learning_rate': 0.006525492464954867, 'hidden_layers': 1, 'hidden_size': 64, 'dropout_rate': 0.2626632022686026, 'l2_lambda': 0.0010011530912784905, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 40 ---
+  Params: 
+    learning_rate: 0.0013133488534663267
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.2372112932698302
+    l2_lambda: 0.000279844035023433
+    batch_size: 128
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 8
+    Fold 1 Best F1: 0.7536
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7530
+--- Trial 40 Finished ---
+  Mean F1 Score: 0.7533
+  Std F1 Score: 0.0003
+[I 2025-11-12 18:27:42,568] Trial 40 finished with value: 0.7533342876960292 and parameters: {'learning_rate': 0.0013133488534663267, 'hidden_layers': 1, 'hidden_size': 128, 'dropout_rate': 0.2372112932698302, 'l2_lambda': 0.000279844035023433, 'batch_size': 128}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 41 ---
+  Params: 
+    learning_rate: 0.0019950660495361853
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.305006413240607
+    l2_lambda: 0.0008173835791404396
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7543
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7961
+--- Trial 41 Finished ---
+  Mean F1 Score: 0.7752
+  Std F1 Score: 0.0209
+[I 2025-11-12 18:29:00,831] Trial 41 finished with value: 0.7751963431278384 and parameters: {'learning_rate': 0.0019950660495361853, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.305006413240607, 'l2_lambda': 0.0008173835791404396, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 42 ---
+  Params: 
+    learning_rate: 0.0009334814612180141
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.30246096098219544
+    l2_lambda: 0.001801937620277488
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 8
+    Fold 1 Best F1: 0.7410
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7723
+--- Trial 42 Finished ---
+  Mean F1 Score: 0.7567
+  Std F1 Score: 0.0156
+[I 2025-11-12 18:30:26,820] Trial 42 finished with value: 0.7566526630596344 and parameters: {'learning_rate': 0.0009334814612180141, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.30246096098219544, 'l2_lambda': 0.001801937620277488, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 43 ---
+  Params: 
+    learning_rate: 0.0018309005185654524
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.3345954654667941
+    l2_lambda: 0.0010437870243930002
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 9
+    Fold 1 Best F1: 0.7591
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 8
+    Fold 2 Best F1: 0.8021
+--- Trial 43 Finished ---
+  Mean F1 Score: 0.7806
+  Std F1 Score: 0.0215
+[I 2025-11-12 18:32:04,495] Trial 43 finished with value: 0.7806300612175168 and parameters: {'learning_rate': 0.0018309005185654524, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.3345954654667941, 'l2_lambda': 0.0010437870243930002, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 44 ---
+  Params: 
+    learning_rate: 0.005735107791036525
+    hidden_layers: 2
+    hidden_size: 64
+    dropout_rate: 0.27949062184060136
+    l2_lambda: 0.0011802848369890366
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7273
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7817
+--- Trial 44 Finished ---
+  Mean F1 Score: 0.7545
+  Std F1 Score: 0.0272
+[I 2025-11-12 18:33:13,084] Trial 44 finished with value: 0.7545091322835833 and parameters: {'learning_rate': 0.005735107791036525, 'hidden_layers': 2, 'hidden_size': 64, 'dropout_rate': 0.27949062184060136, 'l2_lambda': 0.0011802848369890366, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 45 ---
+  Params: 
+    learning_rate: 0.002864252862266297
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.20264385579193245
+    l2_lambda: 0.001608177868814825
+    batch_size: 256
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 8
+    Fold 1 Best F1: 0.7375
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7570
+--- Trial 45 Finished ---
+  Mean F1 Score: 0.7472
+  Std F1 Score: 0.0097
+[I 2025-11-12 18:33:30,359] Trial 45 finished with value: 0.7472400982391674 and parameters: {'learning_rate': 0.002864252862266297, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.20264385579193245, 'l2_lambda': 0.001608177868814825, 'batch_size': 256}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 46 ---
+  Params: 
+    learning_rate: 0.0016703521682998718
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.25099351048827656
+    l2_lambda: 0.0009643006510706816
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 10
+    Fold 1 Best F1: 0.7638
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 7
+    Fold 2 Best F1: 0.7877
+--- Trial 46 Finished ---
+  Mean F1 Score: 0.7758
+  Std F1 Score: 0.0120
+[I 2025-11-12 18:35:16,945] Trial 46 finished with value: 0.7757508194758997 and parameters: {'learning_rate': 0.0016703521682998718, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.25099351048827656, 'l2_lambda': 0.0009643006510706816, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 47 ---
+  Params: 
+    learning_rate: 0.003544295125562645
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.24622927444782428
+    l2_lambda: 0.002037791550599663
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 10
+    Fold 1 Best F1: 0.7380
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.3010, Val Loss=0.5925, Train F1=0.9124, Val F1=0.7294
+Early stopping at epoch 14
+    Fold 2 Best F1: 0.7704
+--- Trial 47 Finished ---
+  Mean F1 Score: 0.7542
+  Std F1 Score: 0.0162
+[I 2025-11-12 18:37:49,632] Trial 47 finished with value: 0.7542004035355094 and parameters: {'learning_rate': 0.003544295125562645, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.24622927444782428, 'l2_lambda': 0.002037791550599663, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 48 ---
+  Params: 
+    learning_rate: 0.0015485062825048614
+    hidden_layers: 2
+    hidden_size: 64
+    dropout_rate: 0.267062541177075
+    l2_lambda: 0.0010227503909038093
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Early stopping at epoch 6
+    Fold 1 Best F1: 0.7564
+  Training Fold 2 on cuda:1...
+Early stopping at epoch 6
+    Fold 2 Best F1: 0.7562
+--- Trial 48 Finished ---
+  Mean F1 Score: 0.7563
+  Std F1 Score: 0.0001
+[I 2025-11-12 18:38:57,163] Trial 48 finished with value: 0.7562984294804243 and parameters: {'learning_rate': 0.0015485062825048614, 'hidden_layers': 2, 'hidden_size': 64, 'dropout_rate': 0.267062541177075, 'l2_lambda': 0.0010227503909038093, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+--- Starting Trial 49 ---
+  Params: 
+    learning_rate: 0.002484144966675976
+    hidden_layers: 2
+    hidden_size: 128
+    dropout_rate: 0.2272929027473153
+    l2_lambda: 0.00038292066199416985
+    batch_size: 32
+  Training Fold 1 on cuda:0...
+Epoch 10: Train Loss=0.1186, Val Loss=0.6124, Train F1=0.9601, Val F1=0.7955
+Early stopping at epoch 11
+    Fold 1 Best F1: 0.7955
+  Training Fold 2 on cuda:1...
+Epoch 10: Train Loss=0.1147, Val Loss=0.6120, Train F1=0.9653, Val F1=0.7750
+Early stopping at epoch 13
+    Fold 2 Best F1: 0.7836
+--- Trial 49 Finished ---
+  Mean F1 Score: 0.7896
+  Std F1 Score: 0.0060
+[I 2025-11-12 18:41:22,286] Trial 49 finished with value: 0.7895529984787883 and parameters: {'learning_rate': 0.002484144966675976, 'hidden_layers': 2, 'hidden_size': 128, 'dropout_rate': 0.2272929027473153, 'l2_lambda': 0.00038292066199416985, 'batch_size': 32}. Best is trial 31 with value: 0.7923280861042032.
+
+===== OPTUNA STUDY COMPLETE =====
+Number of finished trials:  50
+Best trial:
+  Value (Best Mean F1): 0.7923
+  Params: 
+    learning_rate: 0.0022645913580010262
+    hidden_layers: 1
+    hidden_size: 128
+    dropout_rate: 0.362421463849523
+    l2_lambda: 0.0004970534993908161
+    batch_size: 32
+
+===== RE-TRAINING WITH BEST PARAMS =====
+
+--- Fold 1/6 ---
+Best F1 for Fold 1: 0.8466
+
+--- Fold 2/6 ---
+Best F1 for Fold 2: 0.8658
+
+--- Fold 3/6 ---
+Best F1 for Fold 3: 0.8573
+
+--- Fold 4/6 ---
+Best F1 for Fold 4: 0.8795
+
+--- Fold 5/6 ---
+Best F1 for Fold 5: 0.8149
+
+--- Fold 6/6 ---
+Best F1 for Fold 6: 0.9096
+
+===== FINAL EVALUATION COMPLETE =====
+Final Mean F1 over 6 folds: 0.8623 (+/- 0.0290)
+
